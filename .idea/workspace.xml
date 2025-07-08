@@ -4,39 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75ee3b07-ba14-459e-8b5c-5111836cbfcf" name="Changes" comment="Creating main loop&#10;Connecting Menu and Game classes">
-      <change afterPath="$PROJECT_DIR$/asset/Player.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/fase 1(2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/fase 2(1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/fase 2(3).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/fase1(10).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/fase1(3).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/fase1(4).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/fase1(5).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/fase1(6).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/fase1(7).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/fase1(8).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/fase1(9).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/fase1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/fase2(2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/fase2(5).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/fase2(6).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/fase2(7).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/fase2(8).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/fase2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/frame de inimigos.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/frames - Copia.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/frames.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/inimiga.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/inimigo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/menuIniciar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/menu_iniciar_som.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/som_passos.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/som_tiro.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/som_zumbi.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
+    <list default="true" id="75ee3b07-ba14-459e-8b5c-5111836cbfcf" name="Changes" comment="Creating main loop&#10;Connecting Menu and Game classes&#10;Actualized">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/entity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/level.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -87,7 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "feature__level",
     "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
@@ -152,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751844216334</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Creating main loop&#10;Connecting Menu and Game classes&#10;Actualized">
+      <option name="closed" value="true" />
+      <created>1751867362141</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1751867362141</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +155,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Creating main loop&#10;Connecting Menu and Game classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating main loop&#10;Connecting Menu and Game classes" />
+    <MESSAGE value="Creating main loop&#10;Connecting Menu and Game classes&#10;Actualized" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating main loop&#10;Connecting Menu and Game classes&#10;Actualized" />
   </component>
 </project>

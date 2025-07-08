@@ -1,9 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+from abc import ABC
 
-class Entity:
-    def __init__(self):
-        self.name = None
+
+class Entity(ABC):
+    def __init__(self, name: str, position: tuple):
+        self.name = name
         self.surf = None
         self.rect = None
 
