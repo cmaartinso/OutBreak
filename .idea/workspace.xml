@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75ee3b07-ba14-459e-8b5c-5111836cbfcf" name="Changes" comment="Actualized Backgroud">
+    <list default="true" id="75ee3b07-ba14-459e-8b5c-5111836cbfcf" name="Changes" comment="Actualized Background">
+      <change afterPath="$PROJECT_DIR$/asset/level1_som.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/level2_som.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/menu_iniciar_som.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/asset/menu_iniciar_som.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/background.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/background.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/entity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +66,7 @@
     "Python.entity.executor": "Run",
     "Python.entityFactory.executor": "Run",
     "Python.game.executor": "Run",
+    "Python.level.executor": "Run",
     "Python.main.executor": "Run",
     "Python.menu.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -155,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752019469505</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Actualized Background">
+      <option name="closed" value="true" />
+      <created>1752024850784</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1752024850784</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +189,7 @@
     <MESSAGE value="Creating main loop&#10;Connecting Menu and Game classes&#10;Actualized" />
     <MESSAGE value="Actualized Entity" />
     <MESSAGE value="Actualized Backgroud" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualized Backgroud" />
+    <MESSAGE value="Actualized Background" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualized Background" />
   </component>
 </project>

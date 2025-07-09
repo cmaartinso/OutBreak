@@ -10,7 +10,7 @@ from code.Const import win_width, menu_option, c_white, color_y, color_g
 class Menu:
     def __init__(self, window):
         self.window = window
-        self.surf = pygame.image.load('./asset/MenuIniciar.png')
+        self.surf = pygame.image.load('./asset/MenuIniciar.png').convert_alpha()
         self.rect = self.surf.get_rect(left=0, top=0)
 
     def run(self, ):
@@ -47,8 +47,6 @@ class Menu:
                             selected_option = len(menu_option) - 1
                     if event.key == pygame.K_RETURN:  # ENTER
                         return menu_option[selected_option]
-
-
 
     def menu_text(self, text_size: int, text, text_color: tuple, text_center_pos: tuple):
         text_font = pygame.font.SysFont("Lucida Sans Typewriter", text_size)
