@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75ee3b07-ba14-459e-8b5c-5111836cbfcf" name="Changes" comment="Creating main loop&#10;Connecting Menu and Game classes&#10;Actualized">
+    <list default="true" id="75ee3b07-ba14-459e-8b5c-5111836cbfcf" name="Changes" comment="Actualized Backgroud">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/entity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/background.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/background.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +42,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/code/background.py" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/code/game.py" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -59,6 +57,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.background.executor": "Run",
+    "Python.entity.executor": "Run",
+    "Python.entityFactory.executor": "Run",
     "Python.game.executor": "Run",
     "Python.main.executor": "Run",
     "Python.menu.executor": "Run",
@@ -138,7 +139,23 @@
       <option name="project" value="LOCAL" />
       <updated>1751867362141</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Actualized Entity">
+      <option name="closed" value="true" />
+      <created>1751941414291</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1751941414291</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Actualized Backgroud">
+      <option name="closed" value="true" />
+      <created>1752019469505</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1752019469505</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +173,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Creating main loop&#10;Connecting Menu and Game classes" />
     <MESSAGE value="Creating main loop&#10;Connecting Menu and Game classes&#10;Actualized" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating main loop&#10;Connecting Menu and Game classes&#10;Actualized" />
+    <MESSAGE value="Actualized Entity" />
+    <MESSAGE value="Actualized Backgroud" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualized Backgroud" />
   </component>
 </project>
