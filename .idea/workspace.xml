@@ -4,15 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75ee3b07-ba14-459e-8b5c-5111836cbfcf" name="Changes" comment="Actualized Background">
-      <change afterPath="$PROJECT_DIR$/asset/level1_som.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/level2_som.mp3" afterDir="false" />
+    <list default="true" id="75ee3b07-ba14-459e-8b5c-5111836cbfcf" name="Changes" comment="Update level 1">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Player1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Player2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/inimigo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/inimigo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/inimigo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/inimigo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/inimigo5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/inimigo6.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/menu_iniciar_som.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/asset/menu_iniciar_som.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/Player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/frame de inimigos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/frames - Copia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/frames.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/inimiga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/inimigo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/entity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/entityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/entityFactory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,11 +84,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "feature__level",
+    "last_opened_file_path": "C:/Users/Usuário/Desktop/outbreak/asset",
     "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuário\Desktop\outbreak\asset" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Usuário\Desktop\outbreak\asset" />
       <recent name="C:\Users\Usuário\Desktop\outbreak\code" />
@@ -169,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752024850784</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update level 1">
+      <option name="closed" value="true" />
+      <created>1752031545669</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1752031545669</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +215,7 @@
     <MESSAGE value="Actualized Entity" />
     <MESSAGE value="Actualized Backgroud" />
     <MESSAGE value="Actualized Background" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualized Background" />
+    <MESSAGE value="Update level 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update level 1" />
   </component>
 </project>

@@ -12,6 +12,8 @@ entity_speed = {
     'level1bg4': 4,
     'level1bg5': 3,
     'level1bg6': 5,
+    'Player1': 3,
+    'Player2':3,
 }
 
 #M
