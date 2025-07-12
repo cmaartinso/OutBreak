@@ -3,7 +3,8 @@
 import pygame.key
 
 from code.Const import entity_speed, win_width, win_height, PLAYER_KEY_UP, PLAYER_KEY_DOWN, PLAYER_KEY_LEFT, \
-    PLAYER_KEY_RIGHT
+    PLAYER_KEY_RIGHT, PLAYER_KEY_SHOOT
+from code.PlayerShot import PlayerShot
 from code.entity import Entity
 
 
@@ -22,5 +23,9 @@ class Player(Entity):
             self.rect.centerx -= entity_speed[self.name]
         if pressed_key[PLAYER_KEY_RIGHT[self.name]] and self.rect.right < win_width:
             self.rect.centerx += entity_speed[self.name]
-
         pass
+
+    def shoot(self):
+        pressed_key = pygame.key.get_pressed()
+        if pressed_key[PLAYER_KEY_SHOOT[self.name]]:
+            return PlayerShot(name=f'{self.name}Shot', position=(self.rect.centerx, self.rect.centery))

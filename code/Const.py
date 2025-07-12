@@ -16,10 +16,13 @@ entity_speed = {
     'level1bg5': 3,
     'level1bg6': 5,
     'Player1': 3,
+    'Player1Shot': 1,
     'Player2': 3,
+    'Player2Shot': 1,
     'Enemy1': 1,
     'Enemy2': 2,
     'Enemy3':2,
+
 }
 
 ENTITY_HEALTH = {
