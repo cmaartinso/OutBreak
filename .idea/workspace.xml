@@ -4,24 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75ee3b07-ba14-459e-8b5c-5111836cbfcf" name="Changes" comment="Update level 1">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Player1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Player2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/inimigo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/inimigo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/inimigo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/inimigo4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/inimigo5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/inimigo6.png" afterDir="false" />
+    <list default="true" id="75ee3b07-ba14-459e-8b5c-5111836cbfcf" name="Changes" comment="Adc Players">
+      <change afterPath="$PROJECT_DIR$/asset/Enemy2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Enemy3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/Player.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/frame de inimigos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/frames - Copia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/frames.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/inimiga.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/inimigo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/inimigo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/inimigo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/inimigo3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/inimigo4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/inimigo5.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Enemy1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/inimigo6.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/enemy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/entityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/entityFactory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/level.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/player.py" afterDir="false" />
@@ -194,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752031545669</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Adc Players">
+      <option name="closed" value="true" />
+      <created>1752199950382</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1752199950382</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +218,7 @@
     <MESSAGE value="Actualized Backgroud" />
     <MESSAGE value="Actualized Background" />
     <MESSAGE value="Update level 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update level 1" />
+    <MESSAGE value="Adc Players" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adc Players" />
   </component>
 </project>

@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 import pygame.key
 
-from code.Const import entity_speed, win_width, win_height
+from code.Const import entity_speed, win_width, win_height, PLAYER_KEY_UP, PLAYER_KEY_DOWN, PLAYER_KEY_LEFT, \
+    PLAYER_KEY_RIGHT
 from code.entity import Entity
 
 
@@ -13,13 +14,13 @@ class Player(Entity):
 
     def move(self, ):
         pressed_key = pygame.key.get_pressed()
-        if pressed_key[pygame.K_UP] and self.rect.top > 0:
+        if pressed_key[PLAYER_KEY_UP[self.name]] and self.rect.top > 0:
             self.rect.centery -= entity_speed[self.name]
-        if pressed_key[pygame.K_DOWN] and self.rect.bottom < win_height:
+        if pressed_key[PLAYER_KEY_DOWN[self.name]] and self.rect.bottom < win_height:
             self.rect.centery += entity_speed[self.name]
-        if pressed_key[pygame.K_LEFT] and self.rect.left > 0:
+        if pressed_key[PLAYER_KEY_LEFT[self.name]] and self.rect.left > 0:
             self.rect.centerx -= entity_speed[self.name]
-        if pressed_key[pygame.K_RIGHT] and self.rect.right < win_width:
+        if pressed_key[PLAYER_KEY_RIGHT[self.name]] and self.rect.right < win_width:
             self.rect.centerx += entity_speed[self.name]
 
         pass
