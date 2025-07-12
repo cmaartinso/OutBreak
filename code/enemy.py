@@ -10,6 +10,5 @@ class Enemy(Entity):
 
     def move(self, ):
         self.rect.centerx -= entity_speed[self.name]
-        if self.rect.right <= 0:
-            self.rect.left = win_width
+
 

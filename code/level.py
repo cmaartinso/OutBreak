@@ -9,14 +9,15 @@ from pygame.font import Font
 from pygame.rect import Rect
 from pygame.surface import Surface
 
-from code.Const import c_white, win_width, menu_option, EVENT_ENEMY
+from code.Const import c_white, win_width, menu_option, EVENT_ENEMY, SPAWN_TIME
+from code.EntityMediator import EntityMediator
 from code.entity import Entity
 from code.entityFactory import EntityFactory
 
 
 class Level:
     def __init__(self, window, name, game_mode):
-        self.timeout = 30000  # 20 segundos
+        self.timeout = 20000  # 20 segundos
         self.window = window
         self.name = name
         self.game_mode = game_mode
@@ -25,7 +26,7 @@ class Level:
         self.entity_list.append(EntityFactory.get_entity('Player1'))
         if game_mode in [menu_option[1], menu_option[2]]:
             self.entity_list.append(EntityFactory.get_entity('Player2'))
-        pygame.time.set_timer(EVENT_ENEMY, 2000)
+        pygame.time.set_timer(EVENT_ENEMY, SPAWN_TIME)
 
     def run(self, ):
         pygame.mixer_music.load(f'./asset/level1_som.mp3')
@@ -49,6 +50,9 @@ class Level:
             self.level_text(14, f'fps: {clock.get_fps():.0f}', c_white, (10, 445))
             self.level_text(14, f'entidades: {len(self.entity_list)}', c_white, (10, 460))
             pygame.display.flip()
+            # Collisions
+            EntityMediator.verify_collision(entity_list=self.entity_list)
+            EntityMediator.verify_health(entity_list=self.entity_list)
         pass
 
     def level_text(self, text_size: int, text: str, text_color: tuple, text_pos: tuple):
