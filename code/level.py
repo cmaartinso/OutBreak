@@ -19,22 +19,30 @@ from code.player import Player
 
 
 class Level:
-    def __init__(self, window, name, game_mode):
+    def __init__(self, window, name, game_mode, player_score: list[int]):
+        self.player1_score = player_score[0]
+        self.player2_score = player_score[1]
         self.timeout = TIMEOUT_LEVEL  # 20 segundos
         self.window = window
         self.name = name
         self.game_mode = game_mode
+        self.player1_score = player_score[0] if len(player_score) > 0 else 0
+        self.player2_score = player_score[1] if len(player_score) > 1 else 0
         self.entity_list: list[Entity] = []
         bg = EntityFactory.get_entity((self.name + 'Bg').lower())
         if bg:
             self.entity_list.extend([b for b in bg if b is not None])
-        self.entity_list.append(EntityFactory.get_entity('Player1'))
+        player = EntityFactory.get_entity('Player1')
+        player.score = player_score[0]
+        self.entity_list.append(player)
         if game_mode in [menu_option[1], menu_option[2]]:
-            self.entity_list.append(EntityFactory.get_entity('Player2'))
+            player = EntityFactory.get_entity('Player2')
+            player.score = player_score[1]
+            self.entity_list.append(player)
         pygame.time.set_timer(EVENT_ENEMY, SPAWN_TIME)
         pygame.time.set_timer(EVENT_TIMEOUT, TIMEOUT_STEP)
 
-    def run(self, ):
+    def run(self, player_score: list[int] ):
         pygame.mixer_music.load(f'./asset/level1_som.mp3')
         pygame.mixer_music.play(-1)
         clock = pygame.time.Clock()
@@ -61,11 +69,16 @@ class Level:
                 if event.type == EVENT_TIMEOUT:
                     self.timeout -= TIMEOUT_STEP
                     if self.timeout == 0:
+                        for ent in self.entity_list:
+                            if isinstance(ent, Player) and ent.name == 'Player1':
+                                player_score[0] = ent.score
+                            if isinstance(ent, Player) and ent.name == 'Player2':
+                                player_score[1] = ent.score
                         return True
 
             found_player = False
             for en in self.entity_list:
-                if isinstance(en, Player):  # ← variável correta
+                if isinstance(en, Player):
                     found_player = True
 
             if not found_player:
