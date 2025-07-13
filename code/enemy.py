@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from code.Const import entity_speed, win_width
+from code.Const import entity_speed, win_width, ENTITY_SCORE
 from code.entity import Entity
 
 
@@ -10,5 +10,3 @@ class Enemy(Entity):
 
     def move(self, ):
         self.rect.centerx -= entity_speed[self.name]
-
-

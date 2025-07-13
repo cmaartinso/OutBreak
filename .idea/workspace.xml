@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75ee3b07-ba14-459e-8b5c-5111836cbfcf" name="Changes" comment="Adc Shoots">
+    <list default="true" id="75ee3b07-ba14-459e-8b5c-5111836cbfcf" name="Changes" comment="Creating main loop&#10;Connecting Menu and Game classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/EntityMediator.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityMediator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/entity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/enemy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +22,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="feature_level" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="feature_level" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,7 +46,6 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/code/background.py" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/code/game.py" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -60,27 +60,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.background.executor": "Run",
-    "Python.entity.executor": "Run",
-    "Python.entityFactory.executor": "Run",
     "Python.game.executor": "Run",
-    "Python.level.executor": "Run",
     "Python.main.executor": "Run",
     "Python.menu.executor": "Run",
-    "Python.player.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature__level",
-    "last_opened_file_path": "C:/Users/Usuário/Desktop/outbreak/asset",
+    "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Usuário\Desktop\outbreak\asset" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Usuário\Desktop\outbreak\asset" />
       <recent name="C:\Users\Usuário\Desktop\outbreak\code" />
@@ -141,87 +131,7 @@
       <option name="project" value="LOCAL" />
       <updated>1751844216334</updated>
     </task>
-    <task id="LOCAL-00006" summary="Creating main loop&#10;Connecting Menu and Game classes&#10;Actualized">
-      <option name="closed" value="true" />
-      <created>1751867362141</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1751867362141</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Actualized Entity">
-      <option name="closed" value="true" />
-      <created>1751941414291</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1751941414291</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Actualized Backgroud">
-      <option name="closed" value="true" />
-      <created>1752019469505</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1752019469505</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Actualized Background">
-      <option name="closed" value="true" />
-      <created>1752024850784</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1752024850784</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Update level 1">
-      <option name="closed" value="true" />
-      <created>1752031545669</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1752031545669</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Adc Players">
-      <option name="closed" value="true" />
-      <created>1752199950382</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1752199950382</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Adc Enemy">
-      <option name="closed" value="true" />
-      <created>1752282874051</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1752282874051</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Adc Collisions">
-      <option name="closed" value="true" />
-      <created>1752289292602</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1752289292602</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Adc Shoots">
-      <option name="closed" value="true" />
-      <created>1752292876042</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1752292876042</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Adc Shoots">
-      <option name="closed" value="true" />
-      <created>1752382584432</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1752382584432</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,15 +148,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Creating main loop&#10;Connecting Menu and Game classes" />
-    <MESSAGE value="Creating main loop&#10;Connecting Menu and Game classes&#10;Actualized" />
-    <MESSAGE value="Actualized Entity" />
-    <MESSAGE value="Actualized Backgroud" />
-    <MESSAGE value="Actualized Background" />
-    <MESSAGE value="Update level 1" />
-    <MESSAGE value="Adc Players" />
-    <MESSAGE value="Adc Enemy" />
-    <MESSAGE value="Adc Collisions" />
-    <MESSAGE value="Adc Shoots" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adc Shoots" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating main loop&#10;Connecting Menu and Game classes" />
   </component>
 </project>
