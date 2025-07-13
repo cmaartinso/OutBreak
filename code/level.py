@@ -9,7 +9,7 @@ from pygame.font import Font
 from pygame.rect import Rect
 from pygame.surface import Surface
 
-from code.Const import c_white, win_width, menu_option, EVENT_ENEMY, SPAWN_TIME
+from code.Const import c_white, win_width, menu_option, EVENT_ENEMY, SPAWN_TIME, color_green, color_cyan
 from code.EntityMediator import EntityMediator
 from code.entity import Entity
 from code.entityFactory import EntityFactory
@@ -42,6 +42,10 @@ class Level:
                     shoot = ent.shoot()
                     if shoot is not None:
                         self.entity_list.append(shoot)
+                if ent.name == 'Player1':
+                    self.level_text(14, f'Player1 - Health: {ent.health} | Score: {ent.score}', color_green, (10, 20))
+                if ent.name == 'Player2':
+                     self.level_text(14, f'Player1 - Health: {ent.health} | Score: {ent.score}', color_cyan, (10,35))
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     pygame.quit()
@@ -60,7 +64,7 @@ class Level:
             EntityMediator.verify_health(entity_list=self.entity_list)
         pass
 
-    def level_text(self, text_size: int, text: str, text_color: tuple, text_pos: tuple):
+    def level_text(self, text_size: int, text: str, text_color: tuple, text_pos: tuple) -> None:
         text_font: Font = pygame.font.SysFont("Lucida Sans Typewriter", size=text_size)
         text_surf: Surface = text_font.render(text, True, text_color).convert_alpha()
         text_rect: Rect = text_surf.get_rect(left=text_pos[0], top=text_pos[1])
