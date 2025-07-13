@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75ee3b07-ba14-459e-8b5c-5111836cbfcf" name="Changes" comment="Adc Collisions">
-      <change afterPath="$PROJECT_DIR$/asset/Player1Shot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/PlayerShot.py" afterDir="false" />
+    <list default="true" id="75ee3b07-ba14-459e-8b5c-5111836cbfcf" name="Changes" comment="Adc Shoots">
+      <change afterPath="$PROJECT_DIR$/asset/Player2Shot.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/EntityMediator.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityMediator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +66,7 @@
     "Python.level.executor": "Run",
     "Python.main.executor": "Run",
     "Python.menu.executor": "Run",
+    "Python.player.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -204,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752289292602</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Adc Shoots">
+      <option name="closed" value="true" />
+      <created>1752292876042</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1752292876042</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,6 +237,7 @@
     <MESSAGE value="Adc Players" />
     <MESSAGE value="Adc Enemy" />
     <MESSAGE value="Adc Collisions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adc Collisions" />
+    <MESSAGE value="Adc Shoots" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adc Shoots" />
   </component>
 </project>
