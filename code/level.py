@@ -48,6 +48,7 @@ class Level:
         else:
             pygame.mixer_music.load(f'./asset/level1_som.mp3')
         pygame.mixer_music.play(-1)
+        pygame.mixer_music.set_volume(0.3)
         clock = pygame.time.Clock()
         while True:
             clock.tick(60)
