@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75ee3b07-ba14-459e-8b5c-5111836cbfcf" name="Changes" comment="Level 2 implementation">
-      <change afterPath="$PROJECT_DIR$/asset/score.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/score.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/DBProxy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/Score.py" afterDir="false" />
+    <list default="true" id="75ee3b07-ba14-459e-8b5c-5111836cbfcf" name="Changes" comment="SQlite3 implementation for score using proxy design pattern">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/PlayerShot.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/PlayerShot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/level.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752447048359</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="SQlite3 implementation for score using proxy design pattern">
+      <option name="closed" value="true" />
+      <created>1752464542488</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1752464542488</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +175,7 @@
     <MESSAGE value="Creating main loop&#10;Connecting Menu and Game classes" />
     <MESSAGE value="Hit box collisions &#10;HUD&#10;Score" />
     <MESSAGE value="Level 2 implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Level 2 implementation" />
+    <MESSAGE value="SQlite3 implementation for score using proxy design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="SQlite3 implementation for score using proxy design pattern" />
   </component>
 </project>

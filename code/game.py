@@ -11,6 +11,7 @@ from code.Score import Score
 class Game:
     def __init__(self):
         pygame.init()
+        pygame.mixer.init()
         self.window = pygame.display.set_mode(size=(win_width, win_height))
 
     def run(self):
