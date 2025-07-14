@@ -4,12 +4,12 @@ import pygame
 color_g = (85, 107, 47)
 c_white = (255, 255, 255)
 color_y = (152, 251, 152)
-color_green = (0,128,0)
-color_cyan = (0,128,128)
+color_green = (0, 128, 0)
+color_cyan = (0, 128, 128)
 
 # E
 EVENT_ENEMY = pygame.USEREVENT + 1
-EVENT_TIMEOUT= pygame.USEREVENT + 2
+EVENT_TIMEOUT = pygame.USEREVENT + 2
 entity_speed = {
     'level1bg0': 0,
     'level1bg1': 1,
@@ -31,7 +31,7 @@ entity_speed = {
     'Player2Shot': 3,
     'Enemy1': 1,
     'Enemy2': 2,
-    'Enemy3':2,
+    'Enemy3': 2,
 
 }
 
@@ -56,7 +56,7 @@ ENTITY_HEALTH = {
     'Player2Shot': 1,
     'Enemy1': 50,
     'Enemy2': 50,
-    'Enemy3':60,
+    'Enemy3': 60,
 }
 
 ENTITY_DAMAGE = {
@@ -104,7 +104,7 @@ ENTITY_SCORE = {
     'Player2Shot': 0,
     'Enemy1': 100,
     'Enemy2': 120,
-    'Enemy3':130,
+    'Enemy3': 130,
 }
 
 ENTITY_SHOT_DELAY = {
@@ -139,3 +139,20 @@ TIMEOUT_LEVEL = 20000
 # W
 win_width = 600
 win_height = 480
+
+# Score
+SCORE_POS = {'Title': (win_width / 2, 50),
+             'EnterName': (win_width / 2, 80),
+             'Label': (win_width / 2, 90),
+             'Name': (win_width / 2, 110),
+             0: (win_width / 2, 110),
+             1: (win_width / 2, 130),
+             2: (win_width / 2, 150),
+             3: (win_width / 2, 170),
+             4: (win_width / 2, 190),
+             5: (win_width / 2, 210),
+             6: (win_width / 2, 230),
+             7: (win_width / 2, 250),
+             8: (win_width / 2, 270),
+             9: (win_width / 2, 290)
+             }
